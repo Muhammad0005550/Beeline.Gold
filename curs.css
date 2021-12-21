@@ -1,0 +1,162 @@
+body{background-color: #fff;
+color: #000;
+font-size: 16px;
+font-weight: normal;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+color: blue;
+}
+a:visited {
+  color: rgb(95, 93, 93);
+}
+
+.avatar {
+  width: 300px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+color: #86898f;
+font-style: italic;
+margin: 0;
+}
+.info{
+  display: flex;
+  /* max-width: 60%; */
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.text{
+  margin-left: 40px;
+}
+.text h4{
+margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.social {
+/* max-width: 100%; */
+/* background: rgb(252, 226, 226); */
+padding: 15px;
+margin: 5px;
+border-radius: 20px;
+}
+
+.vse {
+  padding-top: 30px;
+  /* position: relative; */
+  /* border: 2px solid black; */
+  max-width: 700px;
+  margin: auto;
+}
+.my{
+
+  /* max-width: 100%; */
+  /* background: rgb(214, 247, 215); */
+  padding: 15px;
+  margin: 5px;
+  border-radius: 20px;
+  }
+.number {
+  /* max-width: 100%; */
+  /* background: rgb(225, 250, 242); */
+  padding: 15px;
+  margin: 5px;
+  border-radius: 20px;  
+  }
+.sim {
+  /* max-width: 100%; */
+  /* background: rgb(229, 232, 248); */
+  padding: 15px;
+  margin: 5px;
+  border-radius: 20px;
+  
+}
+
+.rabota {
+  /* max-width: 60%; */
+  /* background: rgb(196, 190, 190); */
+  padding: 15px;
+  margin: 5px;
+  border-radius: 20px;
+}
+.my ul {
+  padding-left: 20px;
+  color: #626364;
+}
+
+.number p {
+  margin: 0px;
+  color: #464749;
+
+}
+.sim ol{
+  padding-left: 20px;
+  color: #2c2d2e;
+}
+.rabota p{
+ 
+  margin: 3px;
+  color: #232324;
+}
+.rabota ol {
+  padding-left: 20px;
+
+  color: #232324;
+}
+
+  /* position: relative; */
+  /* border: 1px solid black;
+  margin-top: 40px;
+  padding: 20px;
+  height: 300px; */
+
+
+  /* position: absolute;
+  top: 200px;
+  left: 1000px; */
+  /* width: 300px;
+  height: 100px; */
+
+/* .ss1 {
+  position: absolute;
+  top: 600px;
+  left: 400px;
+}
+.ss2 {
+  position: absolute;
+  top: 10px;
+  left: 400px;
+}
+.ss3 {
+  position: absolute;
+  top: 900px;
+  left: 400px;
+} */
+.sim li{
+  margin-top: 6px;
+}
+.my li{
+  margin-top: 6px;
+}
+.rabota li{
+  margin-top: 6px;
+}
